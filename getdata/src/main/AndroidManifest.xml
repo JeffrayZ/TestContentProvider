@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.administrator.testcontentprovider">
+    package="com.example.getdata">
 
     <application
         android:allowBackup="true"
@@ -16,14 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <provider
-            android:authorities="com.wang.provider.myprovider"
-            android:name=".MyProvider"
-            android:enabled="true"
-            android:exported="true">
-
-        </provider>
     </application>
 
 </manifest>
